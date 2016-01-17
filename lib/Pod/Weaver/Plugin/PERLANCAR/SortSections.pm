@@ -70,6 +70,8 @@ __PACKAGE__->meta->make_immutable;
 1;
 # ABSTRACT: Sort POD sections like PERLANCAR
 
+=for Pod::Coverage ^(finalize_document)$
+
 =head1 SYNOPSIS
 
 In your F<weaver.ini>:
