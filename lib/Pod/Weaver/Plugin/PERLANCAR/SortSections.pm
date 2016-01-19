@@ -25,6 +25,7 @@ sub finalize_document {
             # preamble (Bencher::Scenario::*)
             'BENCHMARKED MODULES',
             'BENCHMARK PARTICIPANTS',
+            'BENCHMARK DATASETS',
             'SAMPLE BENCHMARK RESULTS',
 
             # main content
