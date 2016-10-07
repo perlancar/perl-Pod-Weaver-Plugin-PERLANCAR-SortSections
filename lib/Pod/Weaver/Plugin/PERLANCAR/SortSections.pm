@@ -54,7 +54,8 @@ sub finalize_document {
             'ENVIRONMENT',
             'FILES',
 
-            # links/pointers
+            # links/pointers/extra information
+            'HISTORY',
             'HOMEPAGE',
             'SOURCE',
             'BUGS',
