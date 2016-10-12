@@ -22,14 +22,14 @@ sub finalize_document {
             'VERSION',
             'SYNOPSIS',
 
-            # preamble (Bencher::Scenario::*)
+            # main content
+            'DESCRIPTION',
+
+            # Bencher::Scenario::*
             'BENCHMARKED MODULES',
             'BENCHMARK PARTICIPANTS',
             'BENCHMARK DATASETS',
             'SAMPLE BENCHMARK RESULTS',
-
-            # main content
-            'DESCRIPTION',
 
             # everything else that are uncategorized go here
             sub { 1 },
