@@ -54,6 +54,10 @@ sub finalize_document {
             'ENVIRONMENT',
             'FILES',
 
+            # todos
+            'TODO',
+            'TODOS',
+
             # links/pointers/extra information
             'HISTORY',
             'HOMEPAGE',
