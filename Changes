@@ -1,5 +1,12 @@
 Revision history for Pod-Weaver-Plugin-PERLANCAR-SortSections
 
+0.04    2016-10-13 (PERLANCAR)
+
+	- Recognize sections TODO, TODOS.
+
+	- Sample benchmark results et al should be put after Description.
+
+
 0.03    2016-10-07 (PERLANCAR)
 
 	- Put HISTORY section near HOMEPAGE/SEE ALSO.
