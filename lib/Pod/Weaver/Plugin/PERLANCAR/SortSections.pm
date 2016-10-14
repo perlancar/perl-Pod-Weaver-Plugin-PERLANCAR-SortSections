@@ -85,10 +85,8 @@ In your F<weaver.ini>:
  [-PERLANCAR::SortSections]
 
 
-=head1 DESCRIPTION
-
-
-
 =head1 SEE ALSO
+
+L<Pod::Weaver::Plugin::SortSections>, the generic/configurable version
 
 L<Pod::Weaver::Role::SortSections>
