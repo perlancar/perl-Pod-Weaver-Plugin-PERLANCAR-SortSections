@@ -1,5 +1,12 @@
 Revision history for Pod-Weaver-Plugin-PERLANCAR-SortSections
 
+0.05    2016-12-31 (PERLANCAR)
+
+	- Sort SPECIFICATION VERSION before VERSION.
+
+	- [doc] Mention Pod::Weaver::Plugin::SortSections.
+
+
 0.04    2016-10-13 (PERLANCAR)
 
 	- Recognize sections TODO, TODOS.
