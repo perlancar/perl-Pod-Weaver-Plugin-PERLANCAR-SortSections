@@ -19,6 +19,7 @@ sub finalize_document {
         [
             # preamble
             'NAME',
+            'SPECIFICATION VERSION',
             'VERSION',
             'SYNOPSIS',
 
