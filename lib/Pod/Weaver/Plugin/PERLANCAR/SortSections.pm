@@ -63,12 +63,16 @@ sub finalize_document {
             'HISTORY',
             'HOMEPAGE',
             'SOURCE',
+            qr/^.+'S BUGS$/i, # in a forked module, i put the original module's BUGS in ORIGMODULE'S BUGS
             'BUGS',
             'SEE ALSO',
 
             # author & copyright
-            'AUTHOR',
+            qr/^.+'S AUTHORS?$/i, # in a forked module, i put the original module's AUTHOR in ORIGMODULE'S AUTHOR
+            qr/^AUTHORS?/,
+            qr/^.+'S COPYRIGHT( AND LICENSE)?$/i, # in a forked module, i put the original module's COPYRIGHT in ORIGMODULE'S COPYRIGHT
             'COPYRIGHT AND LICENSE',
+            'COPYRIGHT',
         ],
     );
 }
