@@ -49,10 +49,13 @@ sub finalize_document {
 
             # FAQ (after all content & references)
             'FAQ',
+            'FAQS',
 
             # links/pointers (CLI)
             'CONFIGURATION FILE',
+            'CONFIGURATION FILES',
             'ENVIRONMENT',
+            'ENVIRONMENT VARIABLES',
             'FILES',
 
             # todos
